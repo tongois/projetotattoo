@@ -13,5 +13,17 @@
     </head>
     <body>
         <%@include file="WEB-INF/header.jspf" %> 
+        
+        
+    <div class="container-fluid">
+         <div class="caixa">
+             <a href="cadastroCliente.jsp">Cadastrar Cliente</a>
+             <a href="cadastroUsuario.jsp">Cadastrar Usuarios</a>
+             <a href="exibirCliente.jsp">Exibir Clientes</a>
+     </div>
+  </div>
+        
+        
+        <%@include file="WEB-INF/footer.jspf" %> 
     </body>
 </html>
