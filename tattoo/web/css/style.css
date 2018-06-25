@@ -1,0 +1,130 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25/06/2018, 20:03:50
+    Author     : Ton
+*/
+
+/* header */
+.header-container{
+    height:160px;
+}
+.header-container img{
+    height: 145px;
+    margin-top: -10px;
+}
+
+.header-container ul{
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.header-container ul li {
+    font-size: 20px;
+}
+
+.header-container ul input {
+    float: right;
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#usr{
+    margin-left: 40px;
+}
+
+#logar{
+    width: 60px;
+    background-color: green;
+    color: gainsboro;
+
+}
+
+
+/* corpo*/
+body{
+    background-image: url(../img/fundo.jpg);
+    
+}
+.caixa{
+    background-color: #262626;
+    border-radius: 5px;
+    height: 450px;
+    margin-bottom: 20px;
+    box-shadow: 2px 4px 6px gray;
+}
+
+
+/* form cliente*/
+.formulario{
+    margin-left: 20%;
+    margin-top: 80px;
+}
+.formulario .form-group input{
+    height: 40px;
+    display: inline-block;
+    width: 280px;
+    margin-top: 30px;
+    
+}
+
+.formulario .form-group label{
+    margin-left: 30px;
+    color: white;
+    position: relative;
+    top: 20px;
+}
+
+.formulario button{
+    margin-top: 30px;
+    margin-left: 10%;
+}
+
+/* formulario usuario */
+.form-usuario{
+    margin-left: 30%;
+    width: 500px;
+    margin-top: 50px;
+}
+.form-usuario label{
+    color: white;
+}
+
+
+/* tabela de exibição de clientes */
+.exibir-cliente th,td{
+    color: white; 
+}
+.exibir-cliente button{
+    width: 60px;
+    height: 30px;
+    font-size: 0.8em;
+}
+
+.exibir-cliente tr,td:hover{
+  color: black;
+ background: rgba(76, 175, 80, 0.1);
+    
+}
+
+/* rodape */
+.rodape{
+    position: absolute;
+    width: 100%;
+    
+    height:160px;
+    background-color: #262626;
+}
+
+.rodape p{
+    color: bisque;
+    text-align: center;
+    padding-top: 70px;
+}
+
+
+
