@@ -65,6 +65,32 @@ body{
     box-shadow: 2px 4px 6px gray;
 }
 
+/*  tela index*/
+.opcao-index{
+    width: 60%;
+    margin: 0 auto;
+    position:relative;
+    top:30%;
+}
+
+.opcao-index a{
+    font-size: 2em;
+    font-family: 'Segoe UI';
+    color: green;
+    border: solid;
+    padding: 5px;
+    border-color: gray;
+    border-width: 3px;
+    margin-left: 5px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.opcao-index a:hover{
+    transition: 1s;
+    color:gray;
+}
+
 
 /* form cliente*/
 .formulario{
