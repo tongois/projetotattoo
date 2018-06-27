@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
+        <file>
+            <url>web/cadastroUsuario.jsp</url>
+            <bookmark id="1">
+                <name/>
+                <line>34</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Lucas%20Monteiro/Documents/NetBeansProjects/tattoo/web/cadastroUsuario.jsp</file>
+            <file>file:/C:/Users/Lucas%20Monteiro/Documents/NetBeansProjects/tattoo/web/exibirCliente.jsp</file>
+            <file>file:/C:/Users/Lucas%20Monteiro/Documents/NetBeansProjects/tattoo/web/WEB-INF/header.jspf</file>
+            <file>file:/C:/Users/Lucas%20Monteiro/Documents/NetBeansProjects/tattoo/src/java/br/com/fatecpg/db/Clientes.java</file>
+            <file>file:/C:/Users/Lucas%20Monteiro/Documents/NetBeansProjects/tattoo/web/cadastroCliente.jsp</file>
+            <file>file:/C:/Users/Lucas%20Monteiro/Documents/NetBeansProjects/tattoo/src/java/br/com/fatecpg/db/User.java</file>
+            <file>file:/C:/Users/Lucas%20Monteiro/Documents/NetBeansProjects/tattoo/sql/db-creation-script.sql</file>
+        </group>
+    </open-files>
+</project-private>
