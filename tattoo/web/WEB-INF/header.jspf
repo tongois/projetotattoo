@@ -48,11 +48,7 @@
             <ul class="nav navbar-nav">
                 <li class="active"><a href="home.jsp">Inicio</a></li>
                 <%if (session.getAttribute("me.login") == null) {%>
-                <form method="post">
-                    Login:<input type="text" class="form-control" id="usr" name="login"/>
-                    Senha:<input type="password" class="form-control" id="pdw" name="pass"/>
-                    <input type="submit" class="form-control" name="loginForm" value="Entrar"  id="logar"/>
-                </form>
+                
                 <%} else {%>
                 <form action="home.jsp">
                     Bem vindo, <%= session.getAttribute("me.name")%> [<%= session.getAttribute("me.role")%>]
@@ -75,5 +71,14 @@
                 <%}%>
                 <hr/>
             </ul>
+                <div class="row">
+                <div class=" col-md-4 caixa-login">  
+                <form method="post">
+                    Login:<input type="text" class="form-control" id="usr" name="login"/>
+                    Senha:<input type="password" class="form-control" id="pdw" name="pass"/>
+                    <input type="submit" class="form-control" name="loginForm" value="Entrar"  id="logar"/>
+                </form>
+                </div>
+                </div>
         </div>
     </nav>

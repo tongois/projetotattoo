@@ -10,7 +10,7 @@ and open the template in the editor.
 
 /* header */
 .header-container{
-    height:160px;
+    height:180px;
 }
 .header-container img{
     height: 145px;
@@ -26,18 +26,25 @@ and open the template in the editor.
     font-size: 20px;
 }
 
-.header-container ul input {
-    float: right;
-    width: 150px;
-    margin-left: 10px;
-    margin-top: 5px;
+ .header-container ul input {
+    width: 50px;
+   
 }
 
-#usr{
-    margin-left: 40px;
+.header-container form {
+    color:white;
+    
 }
+
+.caixa-login{
+    margin-top: 10px;
+    width: 250px;
+}
+
+
 
 #logar{
+    margin-top: 5px;
     width: 60px;
     background-color: green;
     color: gainsboro;
